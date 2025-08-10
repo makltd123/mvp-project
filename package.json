@@ -1,4 +1,14 @@
-"dependencies": {
+{
+  "name": "mvp-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
   "next": "15.4.6",
   "react": "19.1.0",
   "react-dom": "19.1.0",
@@ -13,3 +23,5 @@
   "@types/react-dom": "^19",
   "typescript": "^5"
 }
+
+
